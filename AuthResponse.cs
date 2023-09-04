@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mpesa_pament_lib
 {
-    public class Response
+    public class AuthResponse
     {
         //auth response fields
         public string Access_token { get; set; }
