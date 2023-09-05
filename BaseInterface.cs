@@ -3,7 +3,7 @@
     public interface BaseInterface
     {
         //authentication method
-        Response Auth(string username, string password);
+       public Task<AuthResponse> Auth(string username, string password, bool dev);
 
     }
 }
