@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Mpesa_pament_lib.Objs_folder
 {
-    public class C2B_Reg_Url
+    public class C2B_Reg_Url_req
     {
         public string ShortCode { get; set; }
         public string ResponseType { get; set; }
